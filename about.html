@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<title>About</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("image/about-image-1.jpg");
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+li{
+    font-family: 'Poppins', sans-serif;
+}
+h3
+{
+    font-family: 'Poppins', sans-serif;
+}
+</style>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <a href="index.php"><img src="image/logo_header.png" width="250px"></a>
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="index.php">Home</a></li>
+                <li><a href="product.php">Products</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="account.php">Account</a></li>
+            </ul>
+        </nav>
+        <a href="cart.php"><img src="image/cart.png" width="30px" height="30px"></a>
+        <img src="image/menu.png" class="menu-icon"
+         onclick="menutoggle()">               
+    </div>
+</div> 
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag">Mở cửa từ 7:30 - 22:00</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-size:90px">THE COFFEE HOUSE</span>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-tag">Tầng 3-4 Hub Building 195/10E Điện Biên Phủ, P.15, Q.Bình Thạnh, TP.Hồ Chí Minh</span>
+  </div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">CHUYỆN CÀ PHÊ VÀ TRÀ</span></h5>
+    <p style="text-align: left;">The Coffee House được sinh ra từ niềm đam mê bất tận với hạt cà phê Việt Nam. Qua một chặng đường dài, chúng tôi đã không ngừng mang đến những sản phẩm cà phê thơm ngon, sánh đượm trong không gian
+         thoải mái và lịch sự với mức giá hợp lý. Những ly cà phê của chúng tôi không chỉ đơn thuần là thức uống quen thuộc mà còn mang trên mình một sứ mệnh văn hóa phản ánh một phần nếp sống hiện đại của người Việt Nam.</p><br>
+    <p style="text-align: left;"> The Coffee House sẽ là nơi mọi người xích lại gần nhau, đề cao giá trị kết nối con người và sẻ chia thân tình bên những tách cà phê, ly trà đượm hương, truyền cảm hứng về lối sống hiện đại.</p>
+    <div class="w3-panel w3-leftbar w3-light-grey">
+      <p><i>"Bên ly cà phê phin đang tí tách rơi, người ta trải lòng mình trong những tâm sự vui buồn, những ký ức tưởng chừng đã ngủ quên."</i></p>
+    </div>
+    <img src="image/about-image-7.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+    <p><strong>Giờ mở cửa:</strong> Mỗi ngày từ  7:30 - 22:00</p>
+    <p><strong>Địa chỉ:</strong> Tầng 3-4 Hub Building 195/10E Điện Biên Phủ, P.15, Q.Bình Thạnh</p>
+  </div>
+</div>
+
+<!-- Contact/Area Container -->
+<div class="w3-container" id="where" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">LIÊN HỆ VỚI CHÚNG TÔI</span></h5>
+    <!-- <p>Find us at some address at some place.</p> -->
+    <img src="image/about-3.jpg" class="w3-image" style="width:100%">
+    <p>Chúng tôi sẵn sàng cung cấp dịch vụ ăn uống tốt nhất cho mọi người dù bất cứ nơi đâu. Chúng tôi hiểu nhu cầu của bạn và chúng tôi sẽ cố gắng phục vụ tốt nhất để đáp ứng tất cả các tiêu chí của mọi người.</p>
+  </div>
+</div>
+
+<!-- End page content -->
+</div>
+
+ <!----------footer----------->
+ <div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Đặt hàng: 1800 6936</h3>
+                <p style="text-align:left;color:white;font-size:14px;font-weight:100;">
+                Địa chỉ: Tầng 3-4 Hub Building 195/10E Điện Biên Phủ, P.15, Q.Bình Thạnh, TP.Hồ Chí Minh</p>
+                <div class="app-logo">
+                    <!-- <img src="image/play-store.png">
+                    <img src="image/app-store.png"> -->
+                    <img src="image/1639628541.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="image/coffehouse.png">
+            </div>
+            <div class="footer-col-3">
+                <h3>Giới thiệu</h3>
+                <ul>
+                    <li>Về chúng tôi</li><br>
+                    <li>Khuyễn mãi</li><br>
+                    <li>Cửa hàng</li><br>
+                    <li>Tuyển dụng</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <br><h3>Liên hệ</h3>
+                <ul>
+                    <li>Facebook</li><br>
+                    <li>Twitter</li><br>
+                    <li>Instagram</li><br>
+                    <li>Discord</li><br>
+
+                </ul>
+            </div>
+        </div>
+        <hr>
+
+    </div>
+</div>
+
+</body>
+</html>
